@@ -18,25 +18,27 @@ export default function App() {
 ;
   return (
     <SafeAreaView style={styles.container}>
-      <Text>
+      {/* <Text>
         Open up App.js to start working on your app!
       </Text>
-      {/* <TouchableWithoutFeedback onPress={() => console.log("Image tapped")}> */}
+      <TouchableWithoutFeedback onPress={() => console.log("Image tapped")}> */}
       {/* <TouchableOpacity onPress={() => console.log("Image tapped")}>  */}
-      <TouchableHighlight  onPress={() => console.log("Image tapped")}>
+      {/* <TouchableHighlight  onPress={() => console.log("Image tapped")}> */}
       {/* <Image source={require("./assets/icon.png")} /> */}
-      <Image
+      {/* <Image
         // blurRadius={10}
         // fadeDuration={1000}
         source={{
         width: 200,
         height: 300,
         uri: "https://picsum.photos/200/300"
-          }} />
-          
-        {/* </TouchableWithoutFeedback> */}
+          }} /> */}
+          {/* <View style = {{ width:200, height:70, backgroundColor:"blue"}}></View>
+        </TouchableWithoutFeedback> */}
         {/* </TouchableOpacity> */}
-        </TouchableHighlight>
+      {/* </TouchableHighlight> */}
+      
+      <button> </button>
     </SafeAreaView>
   );
 }
