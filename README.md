@@ -14,6 +14,6 @@
 - yarn add expo
 - yarn start
 
-//기기 화면 정확한 크기 얻을 수 있음
+#### 기기 화면 정확한 크기 얻을 수 있음
 - npm install @react-native-community/hooks
 - yarn add @react-native-community/hooks
